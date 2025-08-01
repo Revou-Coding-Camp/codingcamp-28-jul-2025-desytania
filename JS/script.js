@@ -13,4 +13,4 @@ function validateForm() {
     const result = document.getElementById("result-form");
     result.textContent = `Hello, ${name}. Your message has been sent successfully!`;
   }
-}
+} 

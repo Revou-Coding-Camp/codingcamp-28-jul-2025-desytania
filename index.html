@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>HiveDigital</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <header class="flex items-center justify-between px-[24px] py-[12px]">
+      <!-- logo icon -->
+      <div class="rounded-full overflow-hidden h-[50px] w-[50px]">
+        <img
+          class="h-full w-full object-cover"
+          src="https://i.pinimg.com/736x/ae/87/b3/ae87b330f7b4f1e2040d96322f4cd773.jpg"
+          alt="logo"
+        />
+      </div>
+
+      <nav class="ml-auto flex gap-[8px]">
+        <a class="border rounded-[4px] px-[8px] py-[4px]" href="#Home">Home</a>
+        <a class="border rounded-[4px] px-[8px] py-[4px]" href="#Profile"
+          >Our Profile</a
+        >
+        <a class="border rounded-[4px] px-[8px] py-[4px]" href="#Portofolio"
+          >Portofolio</a
+        >
+        <a class="border rounded-[4px] px-[8px] py-[4px]" href="#Message-us"
+          >Message Us</a
+        >
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <!-- Home Section -->
+      <section
+        class="flex flex-col items-center justify-center p-6 min-h-[400px] md:min-h-[500px]"
+        id="Home"
+      >
+        <h1 class="text-2xl md:text-3xl font-bold text-center mb-2">
+          Welcome to HIVE Digital Solutions
+        </h1>
+        <p class="text-base md:text-lg text-center mb-4">
+          Ini adalah website resmi Perusahaan HIVE
+        </p>
+      </section>
+      <hr />
+
+      <!-- Our Profile Section -->
+      <section
+        class="flex flex-col items-center justify-center p-6 min-h-[400px] md:min-h-[500px]"
+        id="Profile"
+      >
+        <h1 class="text-2xl md:text-3xl font-bold text-center mb-2">
+          HIVE Digital Solutions
+        </h1>
+        <p class="text-base md:text-lg text-center max-w-2xl mb-4">
+          Hive Digital Solutions adalah perusahaan yang bergerak di bidang
+          pengembangan produk digital. Kami menyediakan berbagai layanan mulai
+          dari pembuatan website, company profile digital, hingga solusi kreatif
+          berbasis teknologi untuk menunjang identitas dan kebutuhan digital
+          perusahaan Anda.
+        </p>
+        <div class="flex justify-center w-full">
+          <img
+            src="https://i.pinimg.com/736x/38/93/18/3893181411777830e6b567b4a15684a3.jpg"
+            alt=""
+            class="w-full max-w-[350px] h-auto rounded-lg shadow"
+          />
+        </div>
+      </section>
+      <hr />
+
+      <!-- Portofolio Section -->
+      <section
+        class="flex flex-col items-center justify-center p-6 min-h-[400px] md:min-h-[500px]"
+        id="Portofolio"
+      >
+        <h1 class="text-2xl md:text-3xl font-bold text-center mb-2">
+          Our Headquarter
+        </h1>
+        <p class="text-base md:text-lg text-center max-w-2xl mb-6">
+          Perusahaan kami memiliki tiga cabang utama yang tersebar di kota-kota
+          besar di Indonesia, yaitu Jakarta (sebagai kantor pusat), Bandung, dan
+          Surabaya. Setiap cabang dirancang untuk mendukung kolaborasi, inovasi,
+          dan pelayanan terbaik bagi klien kami di berbagai daerah.
+        </p>
+        <div
+          class="flex flex-col md:flex-row justify-center items-center gap-8 w-full"
+        >
+          <div class="text-center">
+            <img
+              src="https://i.pinimg.com/1200x/73/70/06/73700660a314ef0777928601bc4268a6.jpg"
+              class="rounded-full mx-auto w-[120px] h-[120px] object-cover"
+              alt="Jakarta"
+            />
+            <p class="mt-2 font-medium">Jakarta</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://i.pinimg.com/1200x/64/9d/84/649d847e7a64f60f59d7b28cbc1e8cad.jpg"
+              class="rounded-full mx-auto w-[120px] h-[120px] object-cover"
+              alt="Bandung"
+            />
+            <p class="mt-2 font-medium">Bandung</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://i.pinimg.com/736x/53/79/b4/5379b47a02cc865fa17196c052ffcacc.jpg"
+              class="rounded-full mx-auto w-[120px] h-[120px] object-cover"
+              alt="Surabaya"
+            />
+            <p class="mt-2 font-medium">Surabaya</p>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- Message Us Section -->
+      <section
+        class="flex flex-col items-center justify-center p-6 min-h-[400px] md:min-h-[500px]"
+        id="Message-us"
+      >
+        <h1 class="text-2xl md:text-3xl font-bold text-center mb-2">
+          Message Us
+        </h1>
+        <p class="text-base md:text-lg text-center mb-4">
+          Check out our work and projects
+        </p>
+        <div class="flex flex-col md:flex-row w-full gap-8">
+          <form class="flex-1 max-w-md mx-auto">
+            <table class="w-full">
+              <tr>
+                <td><label for="name-input">Nama:</label></td>
+                <td>
+                  <input
+                    class="border rounded-[4px] px-[8px] py-[4px] w-full"
+                    type="text"
+                    id="name-input"
+                    name="name"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="date-input">Tanggal Lahir:</label></td>
+                <td>
+                  <input
+                    class="border rounded-[4px] px-[8px] py-[4px] w-full"
+                    type="date"
+                    id="date-input"
+                    name="date"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label>Jenis Kelamin:</label></td>
+                <td>
+                  <label
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="Laki-laki"
+                      required
+                    />
+                    Laki-laki</label
+                  >
+                  <label
+                    ><input type="radio" name="gender" value="Perempuan" />
+                    Perempuan</label
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td class="align-top">
+                  <label for="pesan-input">Pesan:</label>
+                </td>
+                <td>
+                  <textarea
+                    class="border rounded-[4px] px-[8px] py-[4px] w-full"
+                    id="pesan-input"
+                    name="pesan"
+                    rows="3"
+                    required
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <button
+                    class="border rounded-[4px] px-[32px] py-[4px] w-full"
+                    type="button"
+                    onclick="validateForm();"
+                  >
+                    Submit
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </form>
+          <div class="flex-1 flex items-center justify-center">
+            <p id="result-form"></p>
+          </div>
+        </div>
+      </section>
+      <hr />
+    </main>
+    <footer class="text-center p-[20px] bg-grey-220">
+      <p>&copy;2025 HIVE Digital Solutions. All rights reserved.</p>
+    </footer>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
